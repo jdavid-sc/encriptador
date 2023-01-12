@@ -1,0 +1,124 @@
+body {
+  background: #f3f5fc;
+  overflow: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  Overflow: auto;
+  height: 600px;
+}
+.container-opciones {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f3f5fc;
+  height: auto;
+  width: 700px;
+}
+.logo-alura img {
+  display: flex;
+  justify-content: flex-end;
+  height: 70px;
+  width: 60px;
+  border-radius: 10px;
+
+}
+.container-opciones input {
+  padding-left: 15px;
+  border: none;
+  color: #0a3871;
+  font-size: 20px;
+  width: 400px;
+  height: 30px;
+
+}
+
+.button {
+  text-align: center;
+  padding: 5px;
+  margin: 30px;
+  width: 180px;
+  height: 40px;
+  font-family: sans-serif;
+  background-color: #0a3871;
+  font-size: 16px;
+  border: 0px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+.button-desencriptar {
+  text-align: center;
+  padding: 5px;
+  margin: 30px;
+  width: 180px;
+  height: 40px;
+  font-family: sans-serif;
+  background-color:#d8dfe8;
+  font-size: 16px;
+  border: 0px;
+  border-radius: 8px;
+  color: #0a3871;
+  cursor: pointer;
+}
+
+.container-desifrado {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  background-color: #f3f5fc ;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 380px;
+  color: #0a3871;
+  font-size: 20px;
+  font-family: sans-serif;
+  border-radius: 15px;
+}
+
+.container-desifrado button {
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 60px;
+  width: 280px;
+  height: 40px;
+  font-family: sans-serif;
+  background-color: #0a3871 ;
+  font-size: 16px;
+  border: 0px;
+  border-radius: 8px;
+  color: white;
+  position:  relative;
+  cursor: pointer;
+}
+.container-desifrado img {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  width: 400px;
+  height: auto;
+}
+.contenedor-texto {
+  text-align: center;
+  height: 80px;
+
+}
+.contenedor-texto p {
+  margin-top: 0px;
+}
+
+.container-desifrado p {
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+
+
+
+
+
